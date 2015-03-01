@@ -1,0 +1,31 @@
+﻿<Properties StartupItem="Droid\iPark.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_4_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iPark.Data.Droid\Database.cs">
+    <Files>
+      <File FileName="iPark.Data.Droid\Database.cs" Line="17" Column="17" />
+      <File FileName="iPark.Data.Droid\Repository.cs" Line="1" Column="1" />
+      <File FileName="iPark.Data.Droid\SqlStatements\SqlTables.cs" Line="19" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="iPark.Core" expanded="True" />
+          <Node name="iPark.Core.Entities" expanded="True" />
+          <Node name="iPark.Data.Droid" expanded="True">
+            <Node name="SqlStatements" expanded="True" />
+            <Node name="Database.cs" selected="True" />
+          </Node>
+          <Node name="iPark.Droid" expanded="True">
+            <Node name="Packages" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark\iPark.cs" line="7" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
