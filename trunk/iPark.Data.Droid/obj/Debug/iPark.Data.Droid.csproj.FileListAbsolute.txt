@@ -1,0 +1,11 @@
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.pdb
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.dll.mdb
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.apk
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\bin\Debug\iPark.Data.Droid-Signed.apk
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\obj\Debug\iPark.Data.Droid.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\obj\Debug\iPark.Data.Droid.pdb
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\obj\Debug\android\bin\iPark.Data.Droid.apk
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\obj\Debug\res\values\strings.xml
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\obj\Debug\R.cs.flag
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\obj\Debug\uploadflags.txt
