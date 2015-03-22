@@ -11,9 +11,9 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <AssemblyName>iPark.Data.Droid</AssemblyName>
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,9 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
-    <Compile Include="Repository.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="SqlStatements\SqlTables.cs" />
+    <Compile Include="SqlStatements\SqlUpdates.cs" />
+    <Compile Include="SqlStatements\SqlInserts.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="Localizations.cs" />
+    <Compile Include="Parks.cs" />
+    <Compile Include="PaymentMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -58,5 +63,11 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="SqlStatements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\iPark.Core.Entities\iPark.Core.Entities.csproj">
+      <Project>{2C8D5001-96F2-4BB0-9239-23FB1F702C7E}</Project>
+      <Name>iPark.Core.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

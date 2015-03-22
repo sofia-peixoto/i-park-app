@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace iPark
+namespace iPark.Data
 {
 	public static class SqlTables
 	{
@@ -11,17 +11,17 @@ namespace iPark
 			{ 
 				StringBuilder sbSql = new StringBuilder ();
 
-				sbSql.Append ("CREATE TABLE [User]");
-				sbSql.Append (");");
-				sbSql.Append ("ID int INTEGER PRIMARY KEY ASC,");
+				sbSql.Append ("CREATE TABLE [Users]");
+				sbSql.Append ("(");
+				sbSql.Append ("ID integer PRIMARY KEY ASC,");
 				sbSql.Append ("Username varchar(20) ,");
 				sbSql.Append ("Password varchar(20) ,");
 				sbSql.Append ("Name varchar(100),");
 				sbSql.Append ("Email varchar(200),");
 				sbSql.Append ("Gender char(1),");
 				sbSql.Append ("Country varchar(100),");
-				sbSql.Append ("Age int(11),");
-				sbSql.Append ("RegistrationDate date,");
+				sbSql.Append ("Age integer,");
+				sbSql.Append ("RegistrationDate date");
 				sbSql.Append (");");
 
 				return sbSql.ToString ();
@@ -35,8 +35,8 @@ namespace iPark
 				StringBuilder sbSql = new StringBuilder ();
 
 				sbSql.Append ("CREATE TABLE [Parks]");
-				sbSql.Append (");");
-				sbSql.Append ("ID int INTEGER PRIMARY KEY ASC,");
+				sbSql.Append ("(");
+				sbSql.Append ("ID integer PRIMARY KEY ASC,");
 				sbSql.Append ("Name varchar(100),");
 				sbSql.Append ("Company varchar(100),");
 				sbSql.Append ("Address varchar(250),");
@@ -48,10 +48,10 @@ namespace iPark
 				sbSql.Append ("Phone varchar(20),");
 				sbSql.Append ("OpeningHour varchar(5),");
 				sbSql.Append ("ClosingHour varchar(5),");
-				sbSql.Append ("PricePerHour int(11),");
-				sbSql.Append ("Floors int(11),");
-				sbSql.Append ("DisabledPlaces int(11),");
-				sbSql.Append ("Capacity int(11),");
+				sbSql.Append ("PricePerHour decimal(11,8),");
+				sbSql.Append ("Floors integer,");
+				sbSql.Append ("DisabledPlaces integer,");
+				sbSql.Append ("Capacity integer");
 				sbSql.Append (");");
 
 				return sbSql.ToString ();
@@ -65,16 +65,10 @@ namespace iPark
 				StringBuilder sbSql = new StringBuilder ();
 
 				sbSql.Append ("CREATE TABLE [PaymentMethods]");
-				sbSql.Append (");");
-				sbSql.Append ("ID int INTEGER PRIMARY KEY ASC,");
-				sbSql.Append ("Username varchar(20) ,");
-				sbSql.Append ("Password varchar(20) ,");
-				sbSql.Append ("Name varchar(100),");
-				sbSql.Append ("Email varchar(200),");
-				sbSql.Append ("Gender char(1),");
-				sbSql.Append ("Country varchar(100),");
-				sbSql.Append ("Age int(11),");
-				sbSql.Append ("RegistrationDate date,");
+				sbSql.Append ("(");
+				sbSql.Append ("ID integer PRIMARY KEY ASC,");
+				sbSql.Append ("ParkID integer,");
+				sbSql.Append ("Description varchar(100)");
 				sbSql.Append (");");
 
 				return sbSql.ToString ();
@@ -88,16 +82,10 @@ namespace iPark
 				StringBuilder sbSql = new StringBuilder ();
 
 				sbSql.Append ("CREATE TABLE [Localizations]");
-				sbSql.Append (");");
-				sbSql.Append ("ID int INTEGER PRIMARY KEY ASC,");
-				sbSql.Append ("Username varchar(20) ,");
-				sbSql.Append ("Password varchar(20) ,");
-				sbSql.Append ("Name varchar(100),");
-				sbSql.Append ("Email varchar(200),");
-				sbSql.Append ("Gender char(1),");
-				sbSql.Append ("Country varchar(100),");
-				sbSql.Append ("Age int(11),");
-				sbSql.Append ("RegistrationDate date,");
+				sbSql.Append ("(");
+				sbSql.Append ("ID integer PRIMARY KEY ASC,");
+				sbSql.Append ("Latitude decimal(11,8),");
+				sbSql.Append ("Longitude decimal(11,8)");
 				sbSql.Append (");");
 
 				return sbSql.ToString ();
@@ -111,16 +99,10 @@ namespace iPark
 				StringBuilder sbSql = new StringBuilder ();
 
 				sbSql.Append ("CREATE TABLE [Settings]");
-				sbSql.Append (");");
-				sbSql.Append ("ID int INTEGER PRIMARY KEY ASC,");
-				sbSql.Append ("Username varchar(20) ,");
-				sbSql.Append ("Password varchar(20) ,");
+				sbSql.Append ("(");
+				sbSql.Append ("ID integer PRIMARY KEY ASC,");
 				sbSql.Append ("Name varchar(100),");
-				sbSql.Append ("Email varchar(200),");
-				sbSql.Append ("Gender char(1),");
-				sbSql.Append ("Country varchar(100),");
-				sbSql.Append ("Age int(11),");
-				sbSql.Append ("RegistrationDate date,");
+				sbSql.Append ("Value varchar(200)");
 				sbSql.Append (");");
 
 				return sbSql.ToString ();

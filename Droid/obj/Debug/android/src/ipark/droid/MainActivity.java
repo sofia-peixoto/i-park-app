@@ -2,7 +2,7 @@ package ipark.droid;
 
 
 public class MainActivity
-	extends xamarin.forms.platform.android.FormsApplicationActivity
+	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
 {

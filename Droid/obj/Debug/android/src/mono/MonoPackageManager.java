@@ -69,7 +69,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"iPark.Droid.dll",
 		"FormsViewGroup.dll",
-		"iPark.dll",
+		"iPark.Core.Entities.dll",
+		"iPark.Data.Droid.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
@@ -126,5 +127,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_15";
+	public static final String ApiPackageName = null;
 }

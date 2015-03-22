@@ -1,10 +1,16 @@
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Droid.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\FormsViewGroup.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark\bin\Debug\iPark.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Android.Support.v4.19.1.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Core.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\FormsViewGroup.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Core.Entities\bin\Debug\iPark.Core.Entities.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v4.0.3\Mono.Android.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Core.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Core.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll
@@ -54,3 +60,15 @@ C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.ReaderWriter.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XDocument.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XmlSerializer.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Data.Sqlite.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Data.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Data.Tds.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Mono.Security.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Transactions.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Runtime.Serialization.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Net.Http.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.ComponentModel.DataAnnotations.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.ComponentModel.Composition.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Numerics.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.ServiceModel.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.Linq.dll

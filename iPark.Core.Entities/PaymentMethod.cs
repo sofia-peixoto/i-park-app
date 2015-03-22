@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace iPark
+namespace iPark.Entities
 {
 	public class PaymentMethod
 	{

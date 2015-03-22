@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPark.Core", "iPark\iPark.Core.csproj", "{D64D6409-B573-4049-AD40-C8FBAB8CF50A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPark.Droid", "Droid\iPark.Droid.csproj", "{956CDFC3-83D4-437A-95FF-F82F2F8D456E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPark.Core.Entities", "iPark.Core.Entities\iPark.Core.Entities.csproj", "{2C8D5001-96F2-4BB0-9239-23FB1F702C7E}"
@@ -27,9 +25,5 @@ Global
 		{956CDFC3-83D4-437A-95FF-F82F2F8D456E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{956CDFC3-83D4-437A-95FF-F82F2F8D456E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{956CDFC3-83D4-437A-95FF-F82F2F8D456E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D64D6409-B573-4049-AD40-C8FBAB8CF50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D64D6409-B573-4049-AD40-C8FBAB8CF50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D64D6409-B573-4049-AD40-C8FBAB8CF50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D64D6409-B573-4049-AD40-C8FBAB8CF50A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

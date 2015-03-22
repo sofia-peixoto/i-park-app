@@ -4,13 +4,16 @@ F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Droid.dll.mdb
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Droid.apk
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Droid-Signed.apk
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\FormsViewGroup.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Core.Entities.dll
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Data.Droid.dll
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\Xamarin.Android.Support.v4.dll
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\Xamarin.Forms.Core.dll
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.pdb
-F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.dll.mdb
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Data.Droid.pdb
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Data.Droid.dll.mdb
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Core.Entities.pdb
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\iPark.Core.Entities.dll.mdb
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\Xamarin.Forms.Core.xml
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\iPark.Droid.csprojResolveAssemblyReference.cache
@@ -21,5 +24,7 @@ F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\res\drawable\icon.pn
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\res\drawable-hdpi\icon.png
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\res\drawable-xhdpi\icon.png
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\res\layout\main.xml
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\R.cs.flag
 F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\uploadflags.txt
+F:\My Stuff\Projects\Xamarin\Projects\iPark\Droid\obj\Debug\res\drawable\ps_top_card_01.png
