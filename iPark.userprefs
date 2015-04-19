@@ -2,27 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.9cc1729a7264" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Droid\MainActivity.cs">
     <Files>
-      <File FileName="Droid\MainActivity.cs" Line="35" Column="35" />
+      <File FileName="Droid\MainActivity.cs" Line="9" Column="18" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="iPark.Core.Entities" expanded="True" />
-          <Node name="iPark.Data.Droid" expanded="True">
-            <Node name="Resources" expanded="True" />
-            <Node name="SqlStatements" expanded="True" />
-          </Node>
-          <Node name="iPark.Droid" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="Resources" expanded="True">
-              <Node name="drawable" expanded="True" />
-              <Node name="layout" expanded="True" />
-            </Node>
-            <Node name="MainActivity.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
