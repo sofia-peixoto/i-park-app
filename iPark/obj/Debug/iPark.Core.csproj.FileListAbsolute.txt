@@ -1,5 +1,0 @@
-F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark\bin\Debug\iPark.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark\bin\Debug\iPark.pdb
-F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark\obj\Debug\iPark.dll
-F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark\obj\Debug\iPark.pdb
-F:\My Stuff\Projects\Xamarin\Projects\iPark\iPark\obj\Debug\iPark.Core.csprojResolveAssemblyReference.cache
