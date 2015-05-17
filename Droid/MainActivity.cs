@@ -51,7 +51,7 @@ namespace iPark.Droid
 
 		private void buttonLogin_Click(object sender, EventArgs e)
 		{
-
+			StartActivity(typeof(ParksMapView));
 		}
 
 		private void buttonLoginFacebook_Click(object sender, EventArgs e)

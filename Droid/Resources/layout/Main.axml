@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <ImageView
+        android:src="@drawable/LogoGrande"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageLogo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="86.6dp" />
+    <TextView
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageLogo"
+        android:id="@+id/textViewUsername"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUsername"
+        android:id="@+id/autoCompleteTextViewUsername"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autoCompleteTextViewUsername"
+        android:id="@+id/textViewPassword"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPassword"
+        android:id="@+id/editTextPassword"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:text="Password Recover"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:id="@+id/textView"
+        android:autoLink="none"
+        android:linksClickable="true" />
+    <TextView
+        android:text="Password Recover"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:id="@+id/textViewPasswordRecover"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:text="Register"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:id="@+id/textViewRegister"
+        android:layout_alignParentRight="true"
+        android:linksClickable="true"
+        android:autoLink="all" />
+    <Button
+        android:text="Login"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:text="Login Facebook"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLogin"
+        android:id="@+id/buttonLoginFacebook"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="Login Google"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLoginFacebook"
+        android:id="@+id/buttonLoginGoogle"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:text="Anonymous"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAnonymous"
+        android:linksClickable="true"
+        android:autoLink="all"
+        android:layout_below="@id/buttonLoginGoogle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

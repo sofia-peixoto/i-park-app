@@ -27,6 +27,8 @@ namespace iPark.Droid
 		public static void UpdateIdValues()
 		{
 			global::iPark.Data.Droid.Resource.String.library_name = global::iPark.Droid.Resource.String.library_name;
+			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::iPark.Droid.Resource.String.ApplicationName;
+			global::Xamarin.Forms.Platform.Resource.String.Hello = global::iPark.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -49,7 +51,19 @@ namespace iPark.Droid
 			public const int icon = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int ps_top_card_01 = 2130837505;
+			public const int LogoGrande = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int LogoPequeno = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Mapa = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int Park = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int ps_top_card_01 = 2130837509;
 			
 			static Drawable()
 			{
@@ -76,11 +90,38 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f05000a
 			public const int buttonLoginGoogle = 2131034122;
 			
+			// aapt resource value: 0x7f050013
+			public const int buttonParksListView = 2131034131;
+			
+			// aapt resource value: 0x7f05000c
+			public const int buttonParksMapView = 2131034124;
+			
 			// aapt resource value: 0x7f050004
 			public const int editTextPassword = 2131034116;
 			
 			// aapt resource value: 0x7f050000
 			public const int imageLogo = 2131034112;
+			
+			// aapt resource value: 0x7f050014
+			public const int imageMapa = 2131034132;
+			
+			// aapt resource value: 0x7f05000e
+			public const int imagePark = 2131034126;
+			
+			// aapt resource value: 0x7f05000d
+			public const int listviewParks = 2131034125;
+			
+			// aapt resource value: 0x7f050010
+			public const int textCompany = 2131034128;
+			
+			// aapt resource value: 0x7f05000f
+			public const int textName = 2131034127;
+			
+			// aapt resource value: 0x7f050012
+			public const int textPrice = 2131034130;
+			
+			// aapt resource value: 0x7f050011
+			public const int textTimetable = 2131034129;
 			
 			// aapt resource value: 0x7f050005
 			public const int textView = 2131034117;
@@ -116,6 +157,18 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int ParksListView = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int ParksListView_row = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int ParksMapView = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int ParksSingleView = 2130903044;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -129,8 +182,17 @@ namespace iPark.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
+			
 			// aapt resource value: 0x7f040000
-			public const int library_name = 2130968576;
+			public const int GoogleMapsAPIKey = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int Hello = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public const int library_name = 2130968579;
 			
 			static String()
 			{
