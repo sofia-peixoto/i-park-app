@@ -33,7 +33,7 @@ namespace iPark.Droid
 
 			SetContentView(Resource.Layout.Main);
 
-			autoCompleteTextViewUsername = FindViewById<AutoCompleteTextView>(Resource.Id.autoCompleteTextViewUsername);
+			autoCompleteTextViewUsername = FindViewById<AutoCompleteTextView>(Resource.Id.editTextUsername);
 			editTextPassword = FindViewById<EditText>(Resource.Id.editTextPassword);
 
 			textViewRecoverPassword = FindViewById<TextView>(Resource.Id.textViewPasswordRecover);

@@ -8,12 +8,11 @@
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:id="@+id/imageLogo"
+        android:layout_marginTop="5dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="86.6dp" />
+        android:layout_centerHorizontal="true" />
     <TextView
-        android:text="Username"
+        android:text="@string/Username"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,15 +24,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewUsername"
-        android:id="@+id/autoCompleteTextViewUsername"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/editTextUsername"
         android:gravity="center_horizontal"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#fff2f2f2" />
     <TextView
-        android:text="Password"
+        android:text="@string/Password"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/autoCompleteTextViewUsername"
+        android:layout_below="@id/editTextUsername"
         android:id="@+id/textViewPassword"
         android:gravity="center_horizontal"
         android:layout_centerHorizontal="true" />
@@ -42,38 +46,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewPassword"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
         android:id="@+id/editTextPassword"
         android:gravity="center_horizontal"
-        android:layout_centerHorizontal="true" />
-    <TextView
-        android:text="Password Recover"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextPassword"
-        android:id="@+id/textView"
-        android:autoLink="none"
-        android:linksClickable="true" />
-    <TextView
-        android:text="Password Recover"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextPassword"
-        android:id="@+id/textViewPasswordRecover"
-        android:autoLink="all"
-        android:linksClickable="true"
-        android:layout_alignParentLeft="true" />
-    <TextView
-        android:text="Register"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextPassword"
-        android:id="@+id/textViewRegister"
-        android:layout_alignParentRight="true"
-        android:linksClickable="true"
-        android:autoLink="all" />
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#ffececec"
+        android:background="#fff2f2f2"
+        android:password="true" />
     <Button
         android:text="Login"
         android:layout_width="220dp"
@@ -97,7 +79,7 @@
         android:id="@+id/buttonLoginGoogle"
         android:layout_centerHorizontal="true" />
     <TextView
-        android:text="Anonymous"
+        android:text="@string/Anonymous"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -107,4 +89,28 @@
         android:layout_below="@id/buttonLoginGoogle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp" />
+    <TextView
+        android:text="@string/Password_Recover"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPasswordRecover"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:text="@string/Register"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewRegister"
+        android:linksClickable="true"
+        android:autoLink="all"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp" />
 </RelativeLayout>

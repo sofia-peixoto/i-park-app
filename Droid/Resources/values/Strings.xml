@@ -1,4 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="GoogleMapsAPIKey">0-G53BLdgFiBV6eBm1Z-uS57w8aPtE1JKl1WmNA</string>
+  <string name="GoogleMapsAPIKey">AIzaSyBF5ebfc_6Vbz0dYIHYxeoqkWIszWRav-0</string>
+
+  <string name="Username">Username</string>
+  <string name="Password">Password</string>
+  <string name="Anonymous">Anonymous</string>
+  <string name="Password_Recover">Password Recover</string>
+  <string name="Register">Register</string>
+
+  <string name="ParkData_Timetable">Aberto das {0} até às {1}</string>
+  <string name="ParkData_Price">Aberto das {0} até às {1}</string>
 </resources>

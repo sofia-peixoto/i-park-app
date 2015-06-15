@@ -1,0 +1,1 @@
+C:\Users\Davide\Documents\GitHub\i-park-app\Components\googleplayservices-22.0.0.0\samples\GooglePlayServicesApp\GooglePlayServicesApp\obj\Debug\GooglePlayServicesApp.csprojResolveAssemblyReference.cache

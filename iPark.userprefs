@@ -1,23 +1,15 @@
 ﻿<Properties StartupItem="Droid\iPark.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.LGD40528ffeae7" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.2n20o720g000000vq1g0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\Properties\AndroidManifest.xml">
     <Files>
-      <File FileName="Droid\ParksListView.cs" Line="55" Column="49" />
-      <File FileName="Droid\ParksListViewAdapter.cs" Line="48" Column="43" />
+      <File FileName="Droid\Properties\AndroidManifest.xml" Line="4" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iPark" expanded="True">
-            <Node name="iPark.Core.Business" expanded="True" />
-            <Node name="iPark.Core.Entities" expanded="True" />
-            <Node name="iPark.Data.Droid" expanded="True" />
-            <Node name="iPark.Droid" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="layout" expanded="True" />
-              </Node>
-              <Node name="ParksListView.cs" selected="True" />
+            <Node name="iPark.Droid" expanded="True" selected="True">
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
