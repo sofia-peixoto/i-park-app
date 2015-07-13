@@ -1,10 +1,10 @@
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.dll
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.pdb
-C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.dll.mdb
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Data.Droid.apk
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Data.Droid-Signed.apk
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Core.Entities.dll
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Core.Entities.pdb
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Core.Entities.dll.mdb
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\obj\Debug\iPark.Data.Droid.csprojResolveAssemblyReference.cache
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\obj\Debug\iPark.Data.Droid.dll
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\obj\Debug\iPark.Data.Droid.pdb
@@ -12,4 +12,3 @@ C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\obj\Debug\android\b
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\obj\Debug\res\values\strings.xml
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\obj\Debug\R.cs.flag
 C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\obj\Debug\uploadflags.txt
-C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Data.Droid\bin\Debug\iPark.Core.Entities.dll.mdb

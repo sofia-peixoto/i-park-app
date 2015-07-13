@@ -1,0 +1,7 @@
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Business\bin\Release\iPark.Core.Business.dll
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Business\bin\Release\iPark.Core.Business.pdb
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Business\bin\Release\iPark.Core.Entities.dll
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Business\bin\Release\iPark.Core.Entities.pdb
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Business\obj\Release\iPark.Core.Business.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Business\obj\Release\iPark.Core.Business.dll
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Business\obj\Release\iPark.Core.Business.pdb

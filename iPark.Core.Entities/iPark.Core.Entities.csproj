@@ -36,6 +36,7 @@
     <Compile Include="Park.cs" />
     <Compile Include="PaymentMethod.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="ParkGroup.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

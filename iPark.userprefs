@@ -1,20 +1,13 @@
 ﻿<Properties StartupItem="Droid\iPark.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.2n20o720g000000vq1g0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\Properties\AndroidManifest.xml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.2n20o720g000000vq1g0" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Droid\Properties\AndroidManifest.xml" Line="4" Column="55" />
+      <File FileName="Droid\ParksMapView.cs" Line="119" Column="8" />
+      <File FileName="iPark.Core.Business\Services.cs" Line="1" Column="1" />
+      <File FileName="iPark.Core.Entities\ParkGroup.cs" Line="1" Column="1" />
+      <File FileName="Droid\ParksSingleView.cs" Line="1" Column="1" />
+      <File FileName="Droid\parkInfoWindowAdapter.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="iPark" expanded="True">
-            <Node name="iPark.Droid" expanded="True" selected="True">
-              <Node name="Properties" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -22,5 +15,5 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.iPark.Droid AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Light" />
+  <MonoDevelop.Ide.ItemProperties.iPark.Droid AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
 </Properties>

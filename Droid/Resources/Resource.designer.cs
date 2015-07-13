@@ -1618,67 +1618,85 @@ namespace iPark.Droid
 			public const int Mapa = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int mr_ic_audio_vol = 2130837597;
+			public const int marker_g = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int mr_ic_media_route_connecting_holo_dark = 2130837598;
+			public const int marker_r = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int mr_ic_media_route_connecting_holo_light = 2130837599;
+			public const int marker_y = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int mr_ic_media_route_disabled_holo_dark = 2130837600;
+			public const int mr_ic_audio_vol = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int mr_ic_media_route_disabled_holo_light = 2130837601;
+			public const int mr_ic_media_route_connecting_holo_dark = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int mr_ic_media_route_holo_dark = 2130837602;
+			public const int mr_ic_media_route_connecting_holo_light = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int mr_ic_media_route_holo_light = 2130837603;
+			public const int mr_ic_media_route_disabled_holo_dark = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int mr_ic_media_route_off_holo_dark = 2130837604;
+			public const int mr_ic_media_route_disabled_holo_light = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int mr_ic_media_route_off_holo_light = 2130837605;
+			public const int mr_ic_media_route_holo_dark = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int mr_ic_media_route_on_0_holo_dark = 2130837606;
+			public const int mr_ic_media_route_holo_light = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int mr_ic_media_route_on_0_holo_light = 2130837607;
+			public const int mr_ic_media_route_off_holo_dark = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int mr_ic_media_route_on_1_holo_dark = 2130837608;
+			public const int mr_ic_media_route_off_holo_light = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int mr_ic_media_route_on_1_holo_light = 2130837609;
+			public const int mr_ic_media_route_on_0_holo_dark = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int mr_ic_media_route_on_2_holo_dark = 2130837610;
+			public const int mr_ic_media_route_on_0_holo_light = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int mr_ic_media_route_on_2_holo_light = 2130837611;
+			public const int mr_ic_media_route_on_1_holo_dark = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int mr_ic_media_route_on_holo_dark = 2130837612;
+			public const int mr_ic_media_route_on_1_holo_light = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int mr_ic_media_route_on_holo_light = 2130837613;
+			public const int mr_ic_media_route_on_2_holo_dark = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int Park = 2130837614;
+			public const int mr_ic_media_route_on_2_holo_light = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int powered_by_google_dark = 2130837615;
+			public const int mr_ic_media_route_on_holo_dark = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int powered_by_google_light = 2130837616;
+			public const int mr_ic_media_route_on_holo_light = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ps_top_card_01 = 2130837617;
+			public const int MyParker = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int MyParker_icon = 2130837618;
+			
+			// aapt resource value: 0x7f020073
+			public const int MyParker_title = 2130837619;
+			
+			// aapt resource value: 0x7f020074
+			public const int Park = 2130837620;
+			
+			// aapt resource value: 0x7f020075
+			public const int powered_by_google_dark = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int powered_by_google_light = 2130837622;
+			
+			// aapt resource value: 0x7f020077
+			public const int ps_top_card_01 = 2130837623;
 			
 			static Drawable()
 			{
@@ -1753,14 +1771,17 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f0b0030
 			public const int book_now = 2131427376;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int buttonLogin = 2131427432;
+			// aapt resource value: 0x7f0b0081
+			public const int button1 = 2131427457;
 			
 			// aapt resource value: 0x7f0b0069
-			public const int buttonLoginFacebook = 2131427433;
+			public const int buttonLogin = 2131427433;
 			
 			// aapt resource value: 0x7f0b006a
-			public const int buttonLoginGoogle = 2131427434;
+			public const int buttonLoginFacebook = 2131427434;
+			
+			// aapt resource value: 0x7f0b006b
+			public const int buttonLoginGoogle = 2131427435;
 			
 			// aapt resource value: 0x7f0b004a
 			public const int buttonPanel = 2131427402;
@@ -1816,11 +1837,11 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f0b001c
 			public const int dropdown = 2131427356;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int editTextPassword = 2131427431;
+			// aapt resource value: 0x7f0b0068
+			public const int editTextPassword = 2131427432;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int editTextUsername = 2131427429;
+			// aapt resource value: 0x7f0b0066
+			public const int editTextUsername = 2131427430;
 			
 			// aapt resource value: 0x7f0b0056
 			public const int edit_query = 2131427414;
@@ -1867,6 +1888,9 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f0b0075
 			public const int imagePark = 2131427445;
 			
+			// aapt resource value: 0x7f0b007c
+			public const int linearLayout1 = 2131427452;
+			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
 			
@@ -1878,6 +1902,15 @@ namespace iPark.Droid
 			
 			// aapt resource value: 0x7f0b007b
 			public const int map = 2131427451;
+			
+			// aapt resource value: 0x7f0b007d
+			public const int marker_g = 2131427453;
+			
+			// aapt resource value: 0x7f0b0080
+			public const int marker_r = 2131427456;
+			
+			// aapt resource value: 0x7f0b007f
+			public const int marker_y = 2131427455;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int match_parent = 2131427375;
@@ -2017,8 +2050,14 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f0b0077
 			public const int textCompany = 2131427447;
 			
+			// aapt resource value: 0x7f0b0083
+			public const int textFloors = 2131427459;
+			
 			// aapt resource value: 0x7f0b0076
 			public const int textName = 2131427446;
+			
+			// aapt resource value: 0x7f0b0084
+			public const int textPhone = 2131427460;
 			
 			// aapt resource value: 0x7f0b0079
 			public const int textPrice = 2131427449;
@@ -2026,23 +2065,29 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f0b0047
 			public const int textSpacerNoButtons = 2131427399;
 			
+			// aapt resource value: 0x7f0b0082
+			public const int textStockingRate = 2131427458;
+			
 			// aapt resource value: 0x7f0b0078
 			public const int textTimetable = 2131427448;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int textViewAnonymous = 2131427435;
-			
-			// aapt resource value: 0x7f0b0066
-			public const int textViewPassword = 2131427430;
+			// aapt resource value: 0x7f0b007e
+			public const int textView1 = 2131427454;
 			
 			// aapt resource value: 0x7f0b006c
-			public const int textViewPasswordRecover = 2131427436;
+			public const int textViewAnonymous = 2131427436;
+			
+			// aapt resource value: 0x7f0b0067
+			public const int textViewPassword = 2131427431;
+			
+			// aapt resource value: 0x7f0b0064
+			public const int textViewPasswordRecover = 2131427428;
 			
 			// aapt resource value: 0x7f0b006d
 			public const int textViewRegister = 2131427437;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int textViewUsername = 2131427428;
+			// aapt resource value: 0x7f0b0065
+			public const int textViewUsername = 2131427429;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int title = 2131427392;
@@ -2252,14 +2297,17 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f06003d
 			public const int GoogleMapsAPIKey = 2131099709;
 			
+			// aapt resource value: 0x7f060043
+			public const int GreenOcupation = 2131099715;
+			
 			// aapt resource value: 0x7f06003a
 			public const int Hello = 2131099706;
 			
-			// aapt resource value: 0x7f060044
-			public const int ParkData_Price = 2131099716;
+			// aapt resource value: 0x7f060047
+			public const int ParkData_Price = 2131099719;
 			
-			// aapt resource value: 0x7f060043
-			public const int ParkData_Timetable = 2131099715;
+			// aapt resource value: 0x7f060046
+			public const int ParkData_Timetable = 2131099718;
 			
 			// aapt resource value: 0x7f06003f
 			public const int Password = 2131099711;
@@ -2267,11 +2315,17 @@ namespace iPark.Droid
 			// aapt resource value: 0x7f060041
 			public const int Password_Recover = 2131099713;
 			
+			// aapt resource value: 0x7f060045
+			public const int RedOcupation = 2131099717;
+			
 			// aapt resource value: 0x7f060042
 			public const int Register = 2131099714;
 			
 			// aapt resource value: 0x7f06003e
 			public const int Username = 2131099710;
+			
+			// aapt resource value: 0x7f060044
+			public const int YellowOcupation = 2131099716;
 			
 			// aapt resource value: 0x7f060006
 			public const int abc_action_bar_home_description = 2131099654;
@@ -2858,6 +2912,9 @@ namespace iPark.Droid
 			
 			// aapt resource value: 0x7f070081
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131165313;
+			
+			// aapt resource value: 0x7f070124
+			public const int MyTheme = 2131165476;
 			
 			// aapt resource value: 0x7f070082
 			public const int Platform_AppCompat = 2131165314;

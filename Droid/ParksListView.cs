@@ -9,13 +9,15 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Support.V7.App;
 
 using iPark.Entities;
+using iPark.Core.Business;
 
 namespace iPark.Droid
 {
-	[Activity (Label = "MyParker")]			
-	public class ParksListView : Activity
+	[Activity (Label = "MyParker", Icon = "@drawable/MyParker_icon", Theme="@style/MyTheme")]			
+	public class ParksListView : ActionBarActivity
 	{
 		Button buttonParksMapView;
 		ListView listviewParks;
@@ -30,6 +32,12 @@ namespace iPark.Droid
 
 			buttonParksMapView = FindViewById<Button>(Resource.Id.buttonParksMapView);
 			listviewParks = FindViewById<ListView>(Resource.Id.listviewParks);
+			listviewParks.ItemClick += (object sender, AdapterView.ItemClickEventArgs e) => {
+				int ID = (int)listviewParks.GetItemIdAtPosition(e.Position);
+				var newActivity = new Intent (this, typeof(ParksSingleView));
+				newActivity.PutExtra ("MyData", mItems[ID].Id.ToString());
+				StartActivity (newActivity);
+			};
 
 			buttonParksMapView.Click += buttonParksMapView_Click;
 
@@ -38,21 +46,12 @@ namespace iPark.Droid
 
 		private void buttonParksMapView_Click(object sender, EventArgs e)
 		{
-			StartActivity(typeof(ParksMapView));
+			base.OnBackPressed ();
 		}
 
 		private void InicializeListView()
 		{
-			mItems = new List<Park> ();
-
-			mItems.Add(new Park() {Name = "Parque 1", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
-			mItems.Add(new Park() {Name = "Parque 2", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
-			mItems.Add(new Park() {Name = "Parque 3", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
-			mItems.Add(new Park() {Name = "Parque 4", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
-			mItems.Add(new Park() {Name = "Parque 5", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
-			mItems.Add(new Park() {Name = "Parque 6", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
-			mItems.Add(new Park() {Name = "Parque 7", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
-			mItems.Add(new Park() {Name = "Parque 8", Company = "Braga Parques", OpeningHour = "7:00", ClosingHour = "24:00", PricePerHour = 0.7M});
+			mItems = Services.loadParks ();
 
 			//ArrayAdapter<string> adapter = new ArrayAdapter<string> (this, Android.Resource.Layout.SimpleListItem1, mItems);
 			ParksListViewAdapter adapter = new ParksListViewAdapter(this, mItems);
@@ -60,7 +59,4 @@ namespace iPark.Droid
 			listviewParks.Adapter = adapter;
 		}
 	}
-
-
 }
-

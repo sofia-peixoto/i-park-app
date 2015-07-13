@@ -7,14 +7,15 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Support.V7.App;
 
 using iPark.Data;
 using Xamarin.Forms.Platform.Android;
 
 namespace iPark.Droid
 {
-	[Activity (Label = "MyParker", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-	public class MainActivity : Activity
+	[Activity (Label = "MyParker", Icon = "@drawable/MyParker_icon", MainLauncher = true, Theme="@style/MyTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	public class MainActivity : ActionBarActivity
 	{
 		AutoCompleteTextView autoCompleteTextViewUsername;
 		EditText editTextPassword;

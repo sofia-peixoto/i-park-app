@@ -14,6 +14,14 @@ iPark.Droid.ParksListViewAdapter, iPark.Droid;md5945292219f68024fcf770143794a8fa
 iPark.Droid.ParksListViewAdapter, iPark.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5945292219f68024fcf770143794a8faf.ParksListViewAdapter
 iPark.Droid.ParksListViewAdapter;md5945292219f68024fcf770143794a8faf.ParksListViewAdapter
 ipark.droid.ParksListViewAdapter;md5945292219f68024fcf770143794a8faf.ParksListViewAdapter
+iPark.Droid.ParksSingleView, iPark.Droid;md5945292219f68024fcf770143794a8faf.ParksSingleView
+iPark.Droid.ParksSingleView, iPark.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5945292219f68024fcf770143794a8faf.ParksSingleView
+iPark.Droid.ParksSingleView;md5945292219f68024fcf770143794a8faf.ParksSingleView
+ipark.droid.ParksSingleView;md5945292219f68024fcf770143794a8faf.ParksSingleView
+iPark.Droid.parkInfoWindowAdapter, iPark.Droid;md5945292219f68024fcf770143794a8faf.parkInfoWindowAdapter
+iPark.Droid.parkInfoWindowAdapter, iPark.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5945292219f68024fcf770143794a8faf.parkInfoWindowAdapter
+iPark.Droid.parkInfoWindowAdapter;md5945292219f68024fcf770143794a8faf.parkInfoWindowAdapter
+ipark.droid.parkInfoWindowAdapter;md5945292219f68024fcf770143794a8faf.parkInfoWindowAdapter
 Android.Gms.Ads.DoubleClick.IAppEventListenerImplementor, GooglePlayServicesLib;mono.com.google.android.gms.ads.doubleclick.AppEventListenerImplementor
 Android.Gms.Ads.DoubleClick.IAppEventListenerImplementor, GooglePlayServicesLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.ads.doubleclick.AppEventListenerImplementor
 Android.Gms.Ads.DoubleClick.IAppEventListenerImplementor;mono.com.google.android.gms.ads.doubleclick.AppEventListenerImplementor

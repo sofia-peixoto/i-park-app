@@ -1,0 +1,4 @@
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Entities\bin\Release\iPark.Core.Entities.dll
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Entities\bin\Release\iPark.Core.Entities.pdb
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Entities\obj\Release\iPark.Core.Entities.dll
+C:\Users\Davide\Documents\GitHub\i-park-app\iPark.Core.Entities\obj\Release\iPark.Core.Entities.pdb

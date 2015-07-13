@@ -4,12 +4,12 @@
     android:layout_height="fill_parent"
     android:background="@android:color/white">
     <ImageView
-        android:src="@drawable/LogoGrande"
-        android:layout_width="160dp"
+        android:src="@drawable/MyParker_title"
+        android:layout_width="571dp"
         android:layout_height="160dp"
         android:id="@+id/imageLogo"
-        android:layout_marginTop="5dp"
-        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/textViewPasswordRecover"
+        android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true" />
     <TextView
         android:text="@string/Username"
@@ -99,7 +99,7 @@
         android:linksClickable="true"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="15dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginBottom="10dp" />
     <TextView
         android:text="@string/Register"
@@ -111,6 +111,6 @@
         android:autoLink="all"
         android:layout_alignParentRight="true"
         android:layout_marginRight="15dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginBottom="10dp" />
 </RelativeLayout>

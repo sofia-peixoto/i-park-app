@@ -35,17 +35,17 @@ namespace iPark.Data
 			t.Address = r ["Address"].ToString ();
 			t.ZIPCode = r ["Name"].ToString ();
 			t.Country = r ["Country"].ToString ();
-			t.Latitude = Convert.ToDecimal (r ["Latitude"]);
-			t.Longitude = Convert.ToDecimal (r ["Longitude"]);
+			t.Latitude = Convert.ToDouble (r ["Latitude"]);
+			t.Longitude = Convert.ToDouble (r ["Longitude"]);
 			t.Phone = r ["Phone"].ToString ();
 			t.OpeningHour = r ["OpeningHour"].ToString ();
 			t.ClosingHour = r ["ClosingHour"].ToString ();
-			t.PricePerHour = Convert.ToDecimal (r ["PricePerHour"]);
+			t.PricePerHour = Convert.ToDouble (r ["PricePerHour"]);
 			t.Floors = Convert.ToInt32 (r ["Floors"]);
 			t.DisabledSpaces = Convert.ToInt32 (r ["DisabledSpaces"]);
 			t.Capacity = Convert.ToInt32 (r ["Capacity"]);
-			t.Stocking = Convert.ToDecimal (r ["Stocking"]);
-			t.StockingRate = Convert.ToDecimal (r ["StockingRate"]);
+			t.Stocking = Convert.ToDouble (r ["Stocking"]);
+			t.StockingRate = Convert.ToDouble (r ["StockingRate"]);
 
 			return t;
 		}

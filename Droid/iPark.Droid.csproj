@@ -15,7 +15,7 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <AssemblyName>iPark.Droid</AssemblyName>
-    <TargetFrameworkVersion>v4.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <ReleaseVersion>1</ReleaseVersion>
   </PropertyGroup>
@@ -28,9 +28,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -39,6 +39,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>Full</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,6 +83,10 @@
       <Project>{2C8D5001-96F2-4BB0-9239-23FB1F702C7E}</Project>
       <Name>iPark.Core.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\iPark.Core.Business\iPark.Core.Business.csproj">
+      <Project>{FCCF2532-1AE3-450F-AE92-C4FE711B29D6}</Project>
+      <Name>iPark.Core.Business</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -90,6 +95,8 @@
     <Compile Include="ParksMapView.cs" />
     <Compile Include="ParksListView.cs" />
     <Compile Include="ParksListViewAdapter.cs" />
+    <Compile Include="ParksSingleView.cs" />
+    <Compile Include="parkInfoWindowAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -108,7 +115,6 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\drawable\ps_top_card_01.png" />
-    <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Mapa.JPG" />
     <AndroidResource Include="Resources\layout\ParksMapView.axml" />
     <AndroidResource Include="Resources\layout\ParksListView.axml" />
@@ -117,6 +123,14 @@
     <AndroidResource Include="Resources\drawable\LogoGrande.png" />
     <AndroidResource Include="Resources\drawable\LogoPequeno.jpg" />
     <AndroidResource Include="Resources\drawable\Park.jpg" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\drawable\MyParker.png" />
+    <AndroidResource Include="Resources\drawable\MyParker_icon.png" />
+    <AndroidResource Include="Resources\drawable\marker_g.png" />
+    <AndroidResource Include="Resources\drawable\marker_r.png" />
+    <AndroidResource Include="Resources\drawable\marker_y.png" />
+    <AndroidResource Include="Resources\drawable\MyParker_title.png" />
+    <AndroidResource Include="Resources\values\strings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.4.2.6359\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.2.6359\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

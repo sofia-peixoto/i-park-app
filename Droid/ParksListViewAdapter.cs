@@ -51,13 +51,12 @@ namespace iPark.Droid
 			textCompany.Text = _items [position].Company;
 
 			TextView textTimetable = row.FindViewById<TextView> (Resource.Id.textTimetable);
-			textTimetable.Text = String.Format("Aberto das {0} até às {1}", _items [position].OpeningHour, _items [position].ClosingHour);
+			textTimetable.Text = (_items [position].StockingRate*100).ToString() + "% of empty spaces"; //String.Format(context.Resources.GetString(Resource.String.ParkData_Timetable), "7h", "19h");
 
 			TextView textPrice = row.FindViewById<TextView> (Resource.Id.textPrice);
-			textPrice.Text = String.Format("Preço por hora: {0}", _items [position].PricePerHour.ToString());
+			textPrice.Text = _items [position].PricePerHour + " € per hour";
 
 			return row;
 		}
 	}
 }
-

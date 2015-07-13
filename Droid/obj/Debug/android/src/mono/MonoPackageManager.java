@@ -82,6 +82,7 @@ class MonoPackageManager_Resources {
 		"iPark.Droid.dll",
 		"FormsViewGroup.dll",
 		"GooglePlayServicesLib.dll",
+		"iPark.Core.Business.dll",
 		"iPark.Core.Entities.dll",
 		"iPark.Data.Droid.dll",
 		"Xamarin.Android.Support.v4.dll",
